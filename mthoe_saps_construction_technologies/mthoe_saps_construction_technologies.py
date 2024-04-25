@@ -47,6 +47,7 @@ if selected == "🏡Home":
     
 if selected == "📥Services offered":
     st.subheader("Here are our current project abilities and services rendered out to interested parties")
+    st.info("Use the tabs below to navigate here")
     tab1 , tab2, tab3, tab4 = st.tabs(["Software Development","Beta Project Documentation", "3D Drone mapping and Surveying", "Architectural Drawings"])
     with tab1:
         with st.container(border=True):
