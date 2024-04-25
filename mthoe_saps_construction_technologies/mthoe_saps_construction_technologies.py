@@ -6,7 +6,6 @@ import numpy as np
 import time
 import os
 import docx2txt
-import pdfplumber
 from streamlit_option_menu import option_menu
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.metric_cards import style_metric_cards
