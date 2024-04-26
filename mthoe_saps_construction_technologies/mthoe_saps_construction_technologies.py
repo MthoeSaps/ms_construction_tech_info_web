@@ -113,7 +113,7 @@ if selected == "📥Services offered":
             with st.container(border=True):
                 st.subheader("Beta Project Documentation")
                 st.info("Here is our official project documentation")
-                docx_file = "mthoe_saps_construction_technologies/Bulawayo mapping Documentation/beta project documentation.docx"
+                docx_file = "mthoe_saps_construction_technologies/Bulawayo Mapping Documentation/beta project documentation.docx"
                 raw_text = docx2txt.process(docx_file)
                 st.text(raw_text)
         if choice == "Project Legal Documentation":
