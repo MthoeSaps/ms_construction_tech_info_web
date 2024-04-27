@@ -89,8 +89,8 @@ if selected == "📥Services offered":
                                 time.sleep(0.05)
                         if st.button("Preview"):
                             st.write(preview)
-                            st.text("Click the link below to get intouch the beta project director, Mthokozisi Thabiso Sapuwa")
-                            st.write(" [WhatsApp me now to make a booking for the exciting journey ahead >](https://wa.me/263777932721)")
+                        st.text("Click the link below to get intouch the beta project director, Mthokozisi Thabiso Sapuwa")
+                        st.write(" [WhatsApp me now to make a booking for the exciting journey ahead >](https://wa.me/263777932721)")
                     
         
                     
